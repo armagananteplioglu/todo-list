@@ -1,0 +1,9 @@
+#header {
+    width: 100%;
+    height: auto;
+    padding: 0.2em;
+    background-color: var(--first-color);
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--second-color);
+}

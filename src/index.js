@@ -1,8 +1,8 @@
 import "./index.css"
+import { header } from "./header.js"
+import { newProjectButton, container } from "./main-page.js"
 
 const mainContent = document.querySelector("#content")
-const header = document.createElement("div")
-header.setAttribute("id", "header")
-header.textContent = "Noob's To Do List"
 
-mainContent.append(header)
+
+mainContent.append(header, newProjectButton, container)

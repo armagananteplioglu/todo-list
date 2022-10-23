@@ -1,0 +1,29 @@
+#projectButton {
+    margin: 0 auto;
+    margin-top: 1em;
+    padding: 15px;
+    width: fit-content;
+    height: auto;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: var(--third-color);
+    color: var(--second-color);
+    text-align: center;
+    cursor: pointer
+}
+
+#container {
+    margin-top: 2em;
+    display: flex;
+}
+
+#projectPane {
+    padding: 2em;
+    color: var(--second-color);
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    cursor: pointer;
+}
