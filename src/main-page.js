@@ -12,14 +12,4 @@ container.append(projectPane, taskPane)
 const newProjectButton = document.createElement("div")
 newProjectButton.setAttribute("id", "projectButton")
 newProjectButton.textContent = "+ New Project"
-newProjectButton.addEventListener("click", createProject)
 
-function createProject () {
-    const projectName = prompt ("Set new project:")
-    const projectContainer = document.createElement("div")
-    const delProject = document.createElement("img")
-    delProject.src = "../components/multiplication.svg"
-    projectContainer.textContent = projectName
-    projectContainer.appendChild(delProject)
-    projectPane.append(projectContainer)
-}
